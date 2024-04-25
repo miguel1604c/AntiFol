@@ -85,5 +85,5 @@ public class Capicua {
         return capicua;
 
     }
-
+   
 }
