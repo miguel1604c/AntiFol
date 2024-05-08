@@ -41,6 +41,7 @@ public class OrdenandaoElArmario {
 
             ropa = sc.next().charAt(0);
 
+            
         }
 
     }
