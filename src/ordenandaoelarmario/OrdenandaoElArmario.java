@@ -13,7 +13,7 @@ public class OrdenandaoElArmario {
         int invierno = 0;
 
         ropa = sc.next().charAt(0);
-
+//condicional para que el programa deje de pedir datos
         while (ropa != '.') {
 
             while (ropa != '.') {
@@ -29,7 +29,7 @@ public class OrdenandaoElArmario {
                 }
                 ropa = sc.next().charAt(0);
             }
-
+// parte en la cual verifica que tipo de prenda es
             if (verano > invierno) {
                 System.out.println("VERANO");
 
@@ -39,10 +39,8 @@ public class OrdenandaoElArmario {
                 System.out.println("EMPATE");
             }
 
-            ropa = sc.next().charAt(0);
-
+            ropa = sc.next().charAt(0);   
         }
-
     }
 
 }
