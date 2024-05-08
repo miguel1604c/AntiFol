@@ -38,8 +38,6 @@ public class OrdenandaoElArmario {
             } else {
                 System.out.println("EMPATE");
             }
-
-            ropa = sc.next().charAt(0);   
         }
     }
 
