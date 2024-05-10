@@ -15,7 +15,7 @@ public class OrdenandaoElArmario {
         ropa = sc.next().charAt(0);
 //condicional para que el programa deje de pedir datos
         while (ropa != '.') {
-
+//  condicional para que pare con el primer armario y pase al siguiente
             while (ropa != '.') {
 
                 if (ropa == 'V') {
